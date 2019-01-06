@@ -9,7 +9,7 @@ You can at max initialize 8 independent `fmotor`s simultaneously and implement P
 
 ---
 
-Progress (as on **6^th^ Jan, 2019**)
+Progress (as on **6th Jan, 2019**)
 
 - [x] System Initialization
 - [x] Motor Drive Function
