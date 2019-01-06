@@ -1,4 +1,4 @@
-Feedback Motor Drive `FMotor` Library
+Feedback Motor Drive `fmotor` Library
 ====================
 
 This library essentially gives you an `fmotor` object that has a built in PD controller that runs on a periodic timer ~~that's declared externally by the user~~. 
