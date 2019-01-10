@@ -30,7 +30,6 @@ void app_main()
     ESP_ERROR_CHECK(esp_timer_create(&periodic_timer_args, &periodic_timer));
     /* The timer has been created but is not running yet */
 
-
     /* Start the timers */
     ESP_ERROR_CHECK(esp_timer_start_periodic(periodic_timer, 500000));
     ESP_LOGI(TAG, "Started timers, time since boot: %lld us", esp_timer_get_time());
