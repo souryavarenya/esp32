@@ -13,7 +13,7 @@ This is a summary of learnings I've made while testing the encoder on `MCPWM` mo
 
   The functions in the GPIO library used for this example only accept GPIO pins as `gpio_num_t` enumerated values. Therefore, we need to type-cast any `int` into  `gpio_num_t` by doing the follows:
 
-  - [x] Tested!
+  - [x] Tested!	
 
   ```c++
   #define DIR_PIN 2

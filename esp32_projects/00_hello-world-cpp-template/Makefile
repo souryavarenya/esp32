@@ -3,6 +3,6 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := mcpwm-test
+PROJECT_NAME := hello-world-cpp
 
 include $(IDF_PATH)/make/project.mk

@@ -19,9 +19,6 @@ extern "C" {
 
 void app_main(void)
 {
-    while (true) {
-        std::string hellomsg = "Hello There!";
-        std::cout << hellomsg << '\n';
-        vTaskDelay(5000 / portTICK_PERIOD_MS);
-    }
+    std::cout << "Hello! Started!" << '\n';
+    fmotor::fmotor_timer_launch();
 }
