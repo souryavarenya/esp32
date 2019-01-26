@@ -4,3 +4,5 @@ cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(mpu-real)
+
+set(EXTRA_COMPONENT_DIRS $(IDF_PATH)/components/I2Cbus $(IDF_PATH)/components/SPIbus)
