@@ -3,6 +3,6 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := FNet
+PROJECT_NAME := feedback-motor-drive
 
 include $(IDF_PATH)/make/project.mk

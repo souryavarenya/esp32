@@ -118,6 +118,4 @@ public:
     shutdown(fsock, 0);
     close(fsock);
   }
-
-
 };
